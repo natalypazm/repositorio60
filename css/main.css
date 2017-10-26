@@ -33,7 +33,7 @@ body {
     line-height: 1.5;
     /*color: #ddd;*/
     /*color:#00B68B;*/
-    color: #25ac9d;
+    color:#252424;
     font-size:1.8em;
 }
 
@@ -76,6 +76,27 @@ h1, h2, h3, h4, h5, h6 {
 .span{
 	color:#f79639;
 }
+.center-parrafo{
+	padding:10% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .kill-margin-bottom {
 	margin-bottom: 0 !important;
 }
@@ -426,6 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-features {
     padding: 70px 0;
+    background: rgba(127, 255, 212, 0.3);
 }
 
 .feature-media {
