@@ -1,14 +1,12 @@
-                                
-
-jQuery(function ($) { "use strict";
+   jQuery(function ($) { "use strict";
 	
 	/* ========================================================================= */
 	/*	Page Preloader
 	/* ========================================================================= */
 	
-	window.onload = function () {
+	/*window.onload = function () {
 		document.getElementById('loading-mask').style.display = 'none';
-	}
+	}*/
 
 	/* =========================================================================== */
 	/*	FitVids js
