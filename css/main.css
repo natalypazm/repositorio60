@@ -70,7 +70,7 @@ a:focus, a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: oswald;
+    /*font-family: oswald;*/
     font-weight: 400;
 }
 p{
@@ -82,6 +82,7 @@ p{
 }
 .center-parrafo{
 	padding:10% 0;
+	color: #fff;
 }
 .about-content p{
 	padding: 0 20px;
@@ -91,7 +92,45 @@ p{
 }
 
 
+.box{
+  position:relative;
+  width: 25%;
+  display: table;
+}
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:30px;
+  transition: .5s ease;
+}
+
+.box:hover .overlay {
+  height:100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
 
 
@@ -127,13 +166,19 @@ p{
 }
 
 .btn-green {
-    background-color: #39518a;
+    /*background-color: #39518a;*/
+    background-color: #ffc934;
+    border-radius: 10px;
 }
 
 .btn-green:focus, 
 .btn-green:hover {
-    background-color: #2F383D;
-	color: #fff;
+    /*background-color: #2F383D;
+	color: #fff;*/
+	background-color: rgba(255, 201, 52, 0.5);
+    color: #fff;
+    border-color: #ffc934;
+
 }
 
 .btn-transparent {
@@ -293,11 +338,12 @@ p{
     left: 0;
     top: 0;
     z-index: 11;
-	background-color: rgba(0,0,0,.5);
+	/*background-color: rgba(0,0,0,.5);*/
 }
 
 #slitSlider .carousel-caption a {
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 30px;
 }
 
 #slitSlider .carousel-caption > div {
@@ -307,7 +353,7 @@ p{
 
 #slitSlider .carousel-caption h2 {
     color: #FFF;
-    font-family: Oswald, sans-serif;
+    /*font-family: Oswald, sans-serif;*/
     font-size: 70px;
     font-weight: 700;
     margin-bottom: 40px;
@@ -457,7 +503,8 @@ p{
 
 #main-features {
     padding: 70px 0;
-    background: rgba(127, 255, 212, 0.3);
+    /*background: rgba(127, 255, 212, 0.3);*/
+    background-color: rgba(57, 81, 138, 0.9);
 }
 
 .feature-media {
@@ -1035,7 +1082,8 @@ p{
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-    background-color: #39518a;
+    /*background-color: #39518a;*/
+    background-color: #ffc934;
     border: 2px solid transparent;
 }
 

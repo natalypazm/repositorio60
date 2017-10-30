@@ -242,9 +242,11 @@
 	background-image: url(../img/slides/1.jpg);
 }
 #home .bg-img-2 {
-	background-image: url(../img/slides/slider.jpg);
+	background: url(../img/slides/slider3.jpg);
+	background-size:cover;
 }
 #home .bg-img-3 {
-	background-image: url(../img/slides/children.jpg);
+	background-image: url(../img/slides/slider2.jpg);
+	background-position:contain;
 }
 
