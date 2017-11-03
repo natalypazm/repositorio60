@@ -1405,7 +1405,7 @@ p{
 .contenedor-formulario .formulario .input-group input[type="text2"]:focus,
 .contenedor-formulario .formulario .input-group input[type="text2"]:active{
   outline: none;
-  border-bottom:1px solid #3F51B5;
+  border-bottom:1px solid rgba(63, 81, 181, 0.7);
 }
 .contenedor-formulario .formulario .input-group input[type="text"].errorL,
 .contenedor-formulario .formulario .input-group input[type="email"].errorL,
