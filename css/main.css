@@ -1398,24 +1398,24 @@ p{
 }
 .contenedor-formulario .formulario .input-group input[type="text"]:focus,
 .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="password"]:focus,
+.contenedor-formulario .formulario .input-group input[type="password"]:active,
 .contenedor-formulario .formulario .input-group input[type="email"]:focus,
 .contenedor-formulario .formulario .input-group input[type="email"]:active,
 .contenedor-formulario .formulario .input-group input[type="text2"]:focus,
-.contenedor-formulario .formulario .input-group input[type="text2"]:active,
-.contenedor-formulario .formulario .input-group input[type="password"]:focus,
-.contenedor-formulario .formulario .input-group input[type="password"]:active{
+.contenedor-formulario .formulario .input-group input[type="text2"]:active{
   outline: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid green;
 }
-.contenedor-formulario .formulario .input-group input[type="text"].error,
-.contenedor-formulario .formulario .input-group input[type="email"].error,
-.contenedor-formulario .formulario .input-group input[type="text2"].error,
-.contenedor-formulario .formulario .input-group input[type="password"].error{
+.contenedor-formulario .formulario .input-group input[type="text"].errorL,
+.contenedor-formulario .formulario .input-group input[type="email"].errorL,
+.contenedor-formulario .formulario .input-group input[type="text2"].errorL,
+.contenedor-formulario .formulario .input-group input[type="password"].errorL{
   border-bottom: 2px solid #D32F2F;
 }
-.contenedor-formulario .formulario .input-group input[type="text"].error + label,
-.contenedor-formulario .formulario .input-group input[type="email"].error + label,
-.contenedor-formulario .formulario .input-group input[type="text2"].error{
+.contenedor-formulario .formulario .input-group input[type="text"].errorL + label,
+.contenedor-formulario .formulario .input-group input[type="email"].errorL + label,
+.contenedor-formulario .formulario .input-group input[type="text2"].errorL{
   /*color: #D32F2F;*/
   color:rgba(63, 81, 181, 0.7);
 }
@@ -1467,14 +1467,14 @@ p{
     border: 2px solid #ee4347;    
     left: 5px;
 }
-.contenedor-formulario .formulario .input-group.error label{
+.contenedor-formulario .formulario .input-group.errorL label{
   color: #D32F2F;
   
 }
-.contenedor-formulario .formulario .input-group.error label:before {
+.contenedor-formulario .formulario .input-group.errorL label:before {
   border: 2px solid #D32F2F;
 }
-.contenedor-formulario .formulario .input-group.error label:hover {
+.contenedor-formulario .formulario .input-group.errorL label:hover {
   background: rgba(211, 47, 47, 0.2);
 }
 .contenedor-formulario .formulario .input-group.radio input[type="radio"] {
