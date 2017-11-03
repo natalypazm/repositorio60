@@ -1354,48 +1354,58 @@
 					<!-- / End Contact Details -->
 						<div style="border:1px solid #1eaca3;" class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
 							<div class="contenedor-formulario">
-    						<div class="wrap">
-						        <form action="" class="formulario" name="formulario_registro" method="post">
-						        <div>
-						            <div class="input-group">
-						                <input type="text" id="nombre" name="nombre"/>
-						                <label class="label" for="nombre">Nombres</label>
-						            </div>
-						            <div class="input-group">
-						                <input type="text" id="apellidos" name="apellidos"/>
-						                <label class="label" for="apellidos">Apellidos</label>
-						            </div>
+    			            <div class="wrap">
+        <form action="" class="formulario" name="formulario_registro" method="post">
+        <div>
+            <div class="input-group">
+                <input type="text" id="nombre" name="nombre"/>
+                <label class="label" for="nombre">Nombres</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="apellido" name="apellido"/>
+                <label class="label" for="apellido">Apellidos</label>
+            </div>
 
-						            <div class="input-group">
-						                <input type="email" id="email" name="email"/>
-						                <label class="label" for="email">Correo electrónico</label>
-						            </div>
+            <div class="input-group">
+                <input type="email" id="email" name="email"/>
+                <label class="label" for="email">Correo electrónico</label>
+            </div>
 
-						            <!--<div class="input-group">
-						                <input type="text" id="text2" name="text2"/>
-						                <label class="label" for="text2">Write your message</label>
-						            </div>-->
+         <div class="input-group radio">
+            <input type="radio" name="valor" id="persona-natural" checked="checked" onclick="ocultarDetalle()"/>
+            <label class="label" for="persona-natural">Persona natural</label>
+            <input type="radio" name="valor" id="empresa"  onclick="mostrarDetalle()"/>
+            <label class="label" for="empresa">Empresa</label>
+         </div>  
 
-						            <div class="input-group radio">
-						                <input type="radio" name="valor" id="persona-natural"/>
-						                <label class="label" for="persona-natural">Persona natural</label>
-						                <input type="radio" name="valor" id="empresa"/>
-						                <label class="label" for="empresa">Empresa</label>
-						            </div>
-						            <div class="input-group">
-						                <input type="password" id="contraseña1" name="contraseña"/>
-						                <label class="label" for="contraseña">Contraseña</label>
-						            </div>
-						            <div class="input-group">
-						                <input type="password" id="contraseña2" name="contaseña"/>
-						                <label class="label" for="contraseña">Confirmar contaseña</label>
-						            </div>
-						            
-						            <input type="submit" name="btn-submit" value="REGISTRAR"/>
+         <div id="opcion-empresa" style="display:none; transition-duration: .5s;">
+            <div class="input-group">
+                  <input type="text" id="nombre-comercial" name="nombre-comercial"/>
+                  <label class="label" for="nombre-comercial">Nombre Comercial</label>
+               </div>
+               <div class="input-group">
+                  <input type="text" id="numero-ruc" name="numero-ruc"/>
+                  <label class="label" for="numero-ruc">Número de RUC</label>
+               </div>
+               <div class="input-group">
+                     <input type="text" id="telefono" name="telefono"/>
+                  <label class="label" for="telefono">Teléfono</label>
+               </div>
+         </div>
+            <div class="input-group">
+            <input type="password" id="contraseña1" name="contraseña"/>
+            <label class="label" for="contraseña">Contraseña</label>
+         </div>
+         <div class="input-group">
+            <input type="password" id="contraseña2" name="contaseña"/>
+            <label class="label" for="contraseña">Confirmar contaseña</label>
+         </div>
 
-						        </div>
-						   		</form>
-    						</div>
+            <input type="submit" name="btn-submit" value="Registrar"/>
+
+        </div>
+    </form>
+    </div>
     					</div>
     				</div>
 					<!-- Contact Form -->
