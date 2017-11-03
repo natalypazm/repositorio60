@@ -81,7 +81,6 @@ p{
 	font-weight: bold;
 }
 .center-parrafo{
-	padding:10% 0;
 	color: #fff;
 }
 .about-content p{
@@ -287,11 +286,11 @@ p{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 38px;
-    color:red;
+    color:#f25b41;
 }
 
 .color {
-    color:orange;
+    color:#f79639;
 }
 
 .sub-title {

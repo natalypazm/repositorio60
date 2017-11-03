@@ -492,7 +492,6 @@ $(window).bind("load", function () {
 
 
 
-
 (function() {
 
   var formulario = document.formulario_registro,
@@ -503,10 +502,10 @@ $(window).bind("load", function () {
   var validarInputs = function() {
     for (var i = 0; i < elementos.length; i++) {
       // Identificamos si el elemento es de tipo texto, email, password, radio o checkbox
-      if (elementos[i].type == "text" || elementos[i].type == "email" || elementos[i].type == "text2" || elementos[i].type == "password") {
+      if (elementos[i].type == "text" || elementos[i].type == "email" || elementos[i].type == "password") {
         // Si es tipo texto, email o password vamos a comprobar que esten completados los input
         if (elementos[i].value.length == 0) {
-          alert('El campo ' + elementos[i].name + ' esta incompleto');
+          console.log('El campo ' + elementos[i].name + ' esta incompleto');
           elementos[i].className = elementos[i].className + " error";
           return false;
         } else {
@@ -534,7 +533,7 @@ $(window).bind("load", function () {
 
         if (resultado == false) {
           elementos[i].parentNode.className = elementos[i].parentNode.className + " error";
-          console.log('El campo esta incompleto');
+          console.log('Escoge una opción');
           return false;
         } else {
           // Eliminamos la clase Error del radio button
@@ -548,13 +547,13 @@ $(window).bind("load", function () {
 
   var enviar = function(e) {
     if (!validarInputs()) {
-      alert('Falta llenar campos');
+      console.log('Campos vacíos');
       e.preventDefault();
     } else if (!validarRadios()) {
-      alert('Escoge una opción');
+      console.log('Escoge una opción');
       e.preventDefault();
     } else {
-      alert('Registrado');
+      console.log('Enviar');
       e.preventDefault();
     }
   };
@@ -575,10 +574,16 @@ $(window).bind("load", function () {
   formulario.addEventListener("submit", enviar);
 
   for (var i = 0; i < elementos.length; i++) {
-    if (elementos[i].type == "text" || elementos[i].type == "email" || elementos[i].type == "text2" || elementos[i].type == "password") {
+    if (elementos[i].type == "text" || elementos[i].type == "email" || elementos[i].type == "text2") {
       elementos[i].addEventListener("focus", focusInput);
       elementos[i].addEventListener("blur", blurInput);
     }
   }
 
-}())                            
+}())
+ function mostrarDetalle() {
+      document.getElementById("opcion-empresa").style.display = 'block';
+  } 
+function ocultarDetalle() {
+      document.getElementById("opcion-empresa").style.display = 'none';
+  } 
