@@ -1405,19 +1405,19 @@ p{
 .contenedor-formulario .formulario .input-group input[type="text2"]:focus,
 .contenedor-formulario .formulario .input-group input[type="text2"]:active{
   outline: none;
-  border-bottom: 2px solid green;
+  border-bottom: 1px solid #3F51B5;
 }
 .contenedor-formulario .formulario .input-group input[type="text"].errorL,
 .contenedor-formulario .formulario .input-group input[type="email"].errorL,
 .contenedor-formulario .formulario .input-group input[type="text2"].errorL,
 .contenedor-formulario .formulario .input-group input[type="password"].errorL{
-  border-bottom: 2px solid #D32F2F;
+  border-bottom: 1px solid #D32F2F;
 }
 .contenedor-formulario .formulario .input-group input[type="text"].errorL + label,
 .contenedor-formulario .formulario .input-group input[type="email"].errorL + label,
 .contenedor-formulario .formulario .input-group input[type="text2"].errorL{
-  /*color: #D32F2F;*/
-  color:rgba(63, 81, 181, 0.7);
+  color: #D32F2F;
+  /*color:rgba(63, 81, 181, 0.7);*/
 }
 .contenedor-formulario .formulario .input-group label.label{
   -webkit-transition: all 0.3s ease;
