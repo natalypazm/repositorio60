@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 p{
 	text-align: left;
 }
+section{
+	margin: 50px 0;
+}
 .span{
 	color:#f79639;
 	font-weight: bold;
@@ -437,9 +440,6 @@ p{
 	About us section
 ==================================================================*/
 
-#about {
-    padding: 50px 0;
-}
 .icon-box{
 	margin:30px 0;
 	text-align: center;
@@ -567,9 +567,6 @@ p{
 	Services section
 ==================================================================*/
 
-#services {
-    padding: 70px 0 100px;
-}
 /*
 #services .title {
     padding-bottom: 125px;
@@ -754,9 +751,11 @@ p{
 
 #team-skills {
     padding: 70px 0;
-    background-image: url(../img/parallax/skills.jpg);
+    background-image: url(../img/niños.jpg);
 }
-
+#team-skills .box-negra{
+	background-color: rgba(0,0,0,0.5);
+}
 .skill-chart > h3 {
     border-bottom: 1px solid;
     margin: 25px 0 15px;

@@ -3,6 +3,9 @@
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
+    .box .overlay .texto{
+        font-size: 12px;
+    }
 
 	/* parallax section */
     .parallax-section {
@@ -64,6 +67,9 @@
 ==============================================================*/
 
 @media (min-width: 768px) and (max-width: 979px) {
+    .box .overlay .texto{
+        font-size: 12px;
+    }
 
 	/* parallax section */
     .parallax-section {
@@ -167,7 +173,15 @@
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
-
+    .box{
+        margin:20px 0
+    }
+    .box .overlay .text{
+        font-size: 12px;
+    }
+    section{
+        magin: 20px 0;
+    }
 	/* parallax section */
     .parallax-section {
         background-position: center top !important;
@@ -403,7 +417,9 @@
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+    .box .overlay .texto{
+        font-size: 12px;
+    }
 	/* homepage slider */
     #slitSlider .carousel-caption h2 {
         font-size: 30px;
