@@ -608,7 +608,9 @@ p{
    /* padding: 75px 0;*/
    /* padding: 0 0 70px 0;*/
 }
-
+.og-details a{
+	display: none;
+}
 .portfolio-filter {
     margin-bottom: 15px;
 }
@@ -711,7 +713,7 @@ p{
 
 .hover-mask h3 {
 	color: #ddd;
-	font-size: 20px;
+	font-size:18px;
 	position: relative;
 	text-transform: uppercase;
 	top: 110px;
