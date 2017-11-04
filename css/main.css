@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 p{
 	text-align: left;
 }
+/*section{
+	margin: 50px 0;
+}*/
 .span{
 	color:#f79639;
 	font-weight: bold;
@@ -437,9 +440,6 @@ p{
 	About us section
 ==================================================================*/
 
-#about {
-    padding: 50px 0;
-}
 .icon-box{
 	margin:30px 0;
 	text-align: center;
@@ -567,9 +567,6 @@ p{
 	Services section
 ==================================================================*/
 
-#services {
-    padding: 70px 0 100px;
-}
 /*
 #services .title {
     padding-bottom: 125px;
@@ -754,9 +751,11 @@ p{
 
 #team-skills {
     padding: 70px 0;
-    background-image: url(../img/parallax/skills.jpg);
+    background-image: url(../img/niños.jpg);
 }
-
+#team-skills .box-negra{
+	background-color: rgba(0,0,0,0.5);
+}
 .skill-chart > h3 {
     border-bottom: 1px solid;
     margin: 25px 0 15px;
@@ -1398,26 +1397,26 @@ p{
 }
 .contenedor-formulario .formulario .input-group input[type="text"]:focus,
 .contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="password"]:focus,
+.contenedor-formulario .formulario .input-group input[type="password"]:active,
 .contenedor-formulario .formulario .input-group input[type="email"]:focus,
 .contenedor-formulario .formulario .input-group input[type="email"]:active,
 .contenedor-formulario .formulario .input-group input[type="text2"]:focus,
-.contenedor-formulario .formulario .input-group input[type="text2"]:active,
-.contenedor-formulario .formulario .input-group input[type="password"]:focus,
-.contenedor-formulario .formulario .input-group input[type="password"]:active{
+.contenedor-formulario .formulario .input-group input[type="text2"]:active{
   outline: none;
-  border-bottom: 2px solid white;
+  border-bottom:1px solid rgba(63, 81, 181, 0.7);
 }
-.contenedor-formulario .formulario .input-group input[type="text"].error,
-.contenedor-formulario .formulario .input-group input[type="email"].error,
-.contenedor-formulario .formulario .input-group input[type="text2"].error,
-.contenedor-formulario .formulario .input-group input[type="password"].error{
-  border-bottom: 2px solid #D32F2F;
+.contenedor-formulario .formulario .input-group input[type="text"].errorL,
+.contenedor-formulario .formulario .input-group input[type="email"].errorL,
+.contenedor-formulario .formulario .input-group input[type="text2"].errorL,
+.contenedor-formulario .formulario .input-group input[type="password"].errorL{
+  border-bottom: 1px solid #D32F2F;
 }
-.contenedor-formulario .formulario .input-group input[type="text"].error + label,
-.contenedor-formulario .formulario .input-group input[type="email"].error + label,
-.contenedor-formulario .formulario .input-group input[type="text2"].error{
-  /*color: #D32F2F;*/
-  color:rgba(63, 81, 181, 0.7);
+.contenedor-formulario .formulario .input-group input[type="text"].errorL + label,
+.contenedor-formulario .formulario .input-group input[type="email"].errorL + label,
+.contenedor-formulario .formulario .input-group input[type="password"].errorL + label{
+  color: #D32F2F;
+  /*color:rgba(63, 81, 181, 0.7);*/
 }
 .contenedor-formulario .formulario .input-group label.label{
   -webkit-transition: all 0.3s ease;
@@ -1467,14 +1466,14 @@ p{
     border: 2px solid #ee4347;    
     left: 5px;
 }
-.contenedor-formulario .formulario .input-group.error label{
+.contenedor-formulario .formulario .input-group.errorL label{
   color: #D32F2F;
   
 }
-.contenedor-formulario .formulario .input-group.error label:before {
+.contenedor-formulario .formulario .input-group.errorL label:before {
   border: 2px solid #D32F2F;
 }
-.contenedor-formulario .formulario .input-group.error label:hover {
+.contenedor-formulario .formulario .input-group.errorL label:hover {
   background: rgba(211, 47, 47, 0.2);
 }
 .contenedor-formulario .formulario .input-group.radio input[type="radio"] {
