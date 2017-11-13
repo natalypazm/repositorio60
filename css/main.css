@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 p{
 	text-align: left;
+	font-weight: lighter;
 }
 .span{
 	color:#f79639;
@@ -324,9 +325,11 @@ p{
 	Add me
 ==================================================================*/
 .about-title{
-	background-color: rgba(24, 169, 159, 0.3);
+	/*background-color: rgba(24, 169, 159, 0.3);*/
+	background-image: url(../img/back.png);
+	color: #fff;
+	font-weight: lighter !important;
     padding: 30px;
-    border-radius: 5px;
     font-weight: 400;
     margin-bottom: 65px;
 
@@ -401,6 +404,8 @@ p{
 .navbar-inverse{
 	background-color: #fff;
 	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.1);
+	border: none !important;
+	z-index: 1000;
 }
 .navbar-brand {
 	height: auto;
