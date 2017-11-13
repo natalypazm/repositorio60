@@ -123,13 +123,14 @@
 	margin-bottom: 10px;
 	padding: 40px 0 10px;
 	text-transform: capitalize;
+	color: #f79639;
 }
 
 .og-details p {
 	font-weight: 400;
 	font-size: inherit;
 	line-height: 22px;
-	color: inherit;
+	color:darkgreen;
 }
 
 .og-details a {

@@ -76,9 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 p{
 	text-align: left;
 }
-section{
-	margin: 50px 0;
-}
 .span{
 	color:#f79639;
 	font-weight: bold;
@@ -516,7 +513,8 @@ section{
 ==================================================================*/
 
 #main-features {
-    padding: 50px 0;
+    /*padding: 50px 0;*/
+    padding: 50px 0 20px 0;
     /*background: rgba(127, 255, 212, 0.3);*/
     background-color: rgba(57, 81, 138, 0.9);
 }
@@ -589,7 +587,7 @@ section{
 	padding: 50px 20px;
     border-left: 1px solid #009688;
     border-top: 1px solid #009688;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
     -webkit-box-shadow: 2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(255, 255, 255, 0.7);
     -moz-box-shadow: 2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
     box-shadow: 2px 2px 5px rgba(0, 150, 136, 0.8), 13px 13px 0 rgba(255, 255, 255, 0.7);
@@ -611,9 +609,11 @@ section{
 
 #showcase {
    /* padding: 75px 0;*/
-    padding: 0 0 70px 0;
+   /* padding: 0 0 70px 0;*/
 }
-
+.og-details a{
+	display: none;
+}
 .portfolio-filter {
     margin-bottom: 15px;
 }
@@ -716,7 +716,7 @@ section{
 
 .hover-mask h3 {
 	color: #ddd;
-	font-size: 20px;
+	font-size:18px;
 	position: relative;
 	text-transform: uppercase;
 	top: 110px;
@@ -753,11 +753,12 @@ section{
 ==================================================================*/
 
 #team-skills {
-    padding: 70px 0;
-    background-image: url(../img/niños.jpg);
+    background:url(../img/niños.jpg)center !important;
+    background-size: cover !important;
 }
 #team-skills .box-negra{
 	background-color: rgba(0,0,0,0.5);
+	padding: 70px 0;
 }
 .skill-chart > h3 {
     border-bottom: 1px solid;
@@ -1172,8 +1173,8 @@ section{
 	Contact
 ==================================================================*/
 
-#contact-us {
-    padding: 70px 0 0;
+#contact-us, #inicio, #main-features, #showcase, #services, #team-skills{
+    margin:70px 0;
 }
 
 .contact-form {

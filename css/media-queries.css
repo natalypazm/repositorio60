@@ -3,10 +3,6 @@
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
-    .box .overlay .texto{
-        font-size: 12px;
-    }
-
 	/* parallax section */
     .parallax-section {
         background-position: center top !important;
@@ -173,14 +169,29 @@
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+    .title{
+        margin:0 20px;
+    }
+    .title h2{
+        font-size: 35px;
+    }
     .box{
         margin:20px 0
     }
     .box .overlay .text{
         font-size: 12px;
     }
-    section{
-        magin: 20px 0;
+    .overlay h5{
+        font-size: 13px;
+    }
+    #contact-us, #inicio, #main-features, #showcase, #services, #team-skills{
+        margin:30px 0;
+    }
+    .og-grid li > a img{
+        height: auto !important;
+    }
+    #og-grid > .mix{
+        margin: 20px 0;
     }
 	/* parallax section */
     .parallax-section {
@@ -281,9 +292,9 @@
     }
 
 	/* services */
-    #services .title {
+    /*#services .title {
         padding-bottom: 60px;
-    }
+    }*/
 
     .service-block {
         margin: 0 auto 30px;
@@ -353,7 +364,7 @@
 
 	/* contact */
     .contact-info {
-        margin: 0 0 30px;
+        margin: 0 15px;
     }
 
     #map-canvas {
