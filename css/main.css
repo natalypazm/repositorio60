@@ -388,10 +388,10 @@ section{
 	Navigation
 ==================================================================*/
 
-.navbar-inverse {
-	/*background-color: #39518a;*/
+/*.navbar-inverse {
+	/*background-color: #39518a;
 	background-color: rgba(255, 201, 52, 0.8);
-	/*background-color: #2B2C30;*/
+	/*background-color: #2B2C30;*
 	width: 100%;
 	z-index: 99;
 	border: none !important;
@@ -400,8 +400,11 @@ section{
 .navbar {
   border-bottom: 1px solid #666;
   margin-bottom: 0;
+}*/
+.navbar-inverse{
+	background-color: #fff;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.1);
 }
-
 .navbar-brand {
 	height: auto;
 	padding: 8px 0;
