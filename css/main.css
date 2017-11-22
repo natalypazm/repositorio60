@@ -508,7 +508,8 @@ p{
     /*padding: 50px 0;*/
     padding: 50px 0 20px 0;
     /*background: rgba(127, 255, 212, 0.3);*/
-    background-color: rgba(57, 81, 138, 0.9);
+    /*background-color: rgba(57, 81, 138, 0.9);*/
+    background-color: #105750;
 }
 
 .feature-media {
@@ -1486,7 +1487,7 @@ p{
 }
 .contenedor-formulario .formulario input[type="submit"] {
     /*background: rgba(255,255,255,0.5);*/
-    border: 1px solid;
+    border: 1px solid #ffcc08;
     color: #ffcc08;
     cursor: pointer;
     display: inline-block;
@@ -1501,6 +1502,7 @@ p{
 }
 .contenedor-formulario .formulario input[type="submit"]:hover {
   background: white;
+  outline: none;
 }
 
 
