@@ -1,6 +1,10 @@
-                                /*
+ /*
 Template Name:FELICIDANDO
 Author:Felicidando Website
+=======
+/*
+Template Name: Felicidando
+>>>>>>> 21cac62ca2d799dab262e0e97557dbe364e1662b
 Version: 1.0
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
@@ -135,17 +139,6 @@ p{
     font-size: 17px;
     font-weight: lighter;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .kill-margin-bottom {
 	margin-bottom: 0 !important;
@@ -320,7 +313,7 @@ p{
 	background-image: url(../img/back.png);
 	color: #fff;
 	font-weight: lighter !important;
-    padding: 30px;
+    padding: 60px;
     font-weight: 400;
     margin-bottom: 65px;
 
@@ -360,16 +353,18 @@ p{
     color: #FFF;
     /*font-family: Oswald, sans-serif;*/
     font-size: 70px;
-    font-weight:lighter;
+    /*font-weight: 700;*/
+    font-weight: lighter;
     margin-bottom: 40px;
     text-transform: uppercase;
 }
 
 #slitSlider .carousel-caption h3 {
     color: #FFF;
-    font-family: Oswald, sans-serif;
+    /*font-family: Oswald, sans-serif;*/
     font-size: 40px;
     font-weight:lighter;
+    /*font-weight: 700;*/
     margin-bottom: 59px;
 }
 
@@ -397,6 +392,7 @@ p{
 	box-shadow: 0 5px 5px 0 rgba(0,0,0,0.1);
 	border: none !important;
 	z-index: 1000;
+	padding: 5px;
 }
 .navbar-brand {
 	height: auto;
@@ -1506,35 +1502,6 @@ p{
 .contenedor-formulario .formulario input[type="submit"]:hover {
   background: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #blog-banner {
