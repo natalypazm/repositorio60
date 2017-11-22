@@ -1,8 +1,6 @@
                                 /*
-Template Name: Meghna Responsive HTML5/CSS3 Portfolio Template
-Author: Muhammad Morshed
-Author URI: http://themeforest.net/user/morsheds
-Description: Meghna Responsive HTML5/CSS3 Portfolio Template
+Template Name:FELICIDANDO
+Author:Felicidando Website
 Version: 1.0
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
@@ -13,14 +11,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 	#Home
 	#Navigation
 	#About
-	#Service
-	#Portfolio
-	#Our Team
-	#Pricing
-	#Blog
-	#Contact
 */
-
 
 /*=================================================================
 	Basic Setup
@@ -352,7 +343,7 @@ p{
     left: 0;
     top: 0;
     z-index: 11;
-	/*background-color: rgba(0,0,0,.5);*/
+	background-color:rgba(100,0,0,0.3)
 }
 
 #slitSlider .carousel-caption a {
@@ -369,7 +360,7 @@ p{
     color: #FFF;
     /*font-family: Oswald, sans-serif;*/
     font-size: 70px;
-    font-weight: 700;
+    font-weight:lighter;
     margin-bottom: 40px;
     text-transform: uppercase;
 }
@@ -378,7 +369,7 @@ p{
     color: #FFF;
     font-family: Oswald, sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight:lighter;
     margin-bottom: 59px;
 }
 
